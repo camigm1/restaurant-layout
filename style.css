@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+/**header**/
+
+header {
+  background-image: url(/image1.jpg);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li a {
+  text-transform: none;
+  list-style: none;
+}
+nav li {
+  list-style: none;
+}
+
+.nav-icon {
+  width: 20px;
+}
+
+.hero {
+  width: 50%;
+}
