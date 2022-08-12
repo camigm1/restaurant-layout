@@ -10,16 +10,34 @@ h1,
 h2 {
   font-family: "Yeseva One", cursive;
 }
+
+button {
+  color: white;
+  background-color: rgb(212, 110, 42);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+}
 /**header**/
 
 header {
-  background-image: url(/image1.jpg);
+  background-image: url(/image-rotated.jpg);
+  /* background-repeat: no repeat; */
+  background-size: cover;
+  padding: 10px 30px 200px;
+}
+
+header h1 {
+  font-size: 56px;
 }
 
 nav ul {
   display: flex;
   justify-content: right;
   gap: 30px;
+  padding-left: 0;
+  padding-right: 150px;
+  padding-bottom: 10px;
 }
 
 nav li a {
@@ -36,4 +54,14 @@ nav li {
 
 .hero {
   width: 50%;
+  margin-left: 50px;
+}
+
+input {
+  padding: 8px 30px;
+}
+
+/**story section**/
+.story-section {
+  background-image: url(/image-rotated.jpg);
 }
