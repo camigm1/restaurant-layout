@@ -18,6 +18,10 @@ button {
   border: none;
   border-radius: 2px;
 }
+
+span {
+  color: rgb(212, 110, 42);
+}
 /**header**/
 
 header {
@@ -63,5 +67,18 @@ input {
 
 /**story section**/
 .story-section {
-  background-image: url(/image-rotated.jpg);
+  display: flex;
+}
+.story {
+  padding: 100px 50px;
+  width: 50%;
+}
+.story h2 {
+  margin-top: 0;
+}
+
+.white {
+  background-image: url(/image23.jpg);
+  background-size: cover;
+  width: 50%;
 }
