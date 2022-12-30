@@ -25,7 +25,7 @@ span {
 /**header**/
 
 header {
-  background-image: url(/image-rotated.jpg);
+  background-image: url(./image-rotated.jpg);
   /* background-repeat: no repeat; */
   background-size: cover;
   padding: 10px 30px 200px;
@@ -78,7 +78,7 @@ input {
 }
 
 .white {
-  background-image: url(/image23.jpg);
+  background-image: url(./image23.jpg);
   background-size: cover;
   width: 50%;
 }
