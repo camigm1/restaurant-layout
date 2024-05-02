@@ -4,11 +4,16 @@
 
 body {
   font-family: "Noto Sans Display", sans-serif;
+  font-size: 1rem;
 }
 
+/**Utilities**/
 h1,
 h2 {
   font-family: "Yeseva One", cursive;
+}
+h2 {
+  font-size: 3rem;
 }
 
 button {
@@ -32,7 +37,7 @@ header {
 }
 
 header h1 {
-  font-size: 56px;
+  font-size: 6rem;
 }
 
 nav ul {
@@ -68,6 +73,7 @@ input {
 /**story section**/
 .story-section {
   display: flex;
+  height: 200%;
 }
 .story {
   padding: 100px 50px;
@@ -81,4 +87,26 @@ input {
   background-image: url(./image23.jpg);
   background-size: cover;
   width: 50%;
+}
+
+/**Menu section**/
+
+.section--2 {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.section--2 h2 {
+  margin-top: 2%;
+}
+
+.menu-container {
+  width: 80%;
+  display: flex;
+}
+
+.menu-container img {
+  width: 20%;
 }
