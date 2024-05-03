@@ -91,22 +91,50 @@ input {
 
 /**Menu section**/
 
-.section--2 {
+.menu-section {
+  background-color: aliceblue;
+  padding: 5% 0 5%;
+}
+.section--header {
   width: 70%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
-.section--2 h2 {
+.section--header h2 {
   margin-top: 2%;
 }
 
 .menu-container {
   width: 80%;
   display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .menu-container img {
   width: 20%;
 }
+
+.meal-type--container {
+  display: flex;
+  width: 50%;
+  margin: 3% auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.meal-type {
+  border-bottom: 2px solid rgb(189, 187, 187);
+  width: 100%;
+  padding: 1.5%;
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid rgb(212, 110, 42);
+}
+
+/**Opening Hours section**/
