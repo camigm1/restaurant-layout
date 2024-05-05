@@ -138,3 +138,12 @@ input {
 }
 
 /**Opening Hours section**/
+.hours-section {
+  padding: 5% 0 5%;
+}
+
+.hours-info {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
