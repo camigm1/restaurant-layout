@@ -147,3 +147,41 @@ input {
   width: 50%;
   text-align: center;
 }
+
+.phone-number {
+  font-size: 2.5rem;
+  color: rgb(212, 110, 42);
+  font-family: "Yeseva One", cursive;
+}
+
+.hours {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hours-styling {
+  font-size: 1.7rem;
+  font-family: "Yeseva One", cursive;
+}
+
+.hours-img {
+  display: block;
+  width: 60%;
+
+  margin: 0 auto;
+}
+
+/*Testimonials*/
+
+.testimonial-headshot {
+  display: block;
+  border-radius: 50%;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.testimonials {
+  text-align: center;
+}
